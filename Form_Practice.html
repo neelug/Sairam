@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creating a form</title>
+</head>
+<body>
+<h1> Creating a web form</h1>
+<p> This is neelu,new HTML developer.creating a new web form with input file which includes names and numeric values.<br>
+and also here iam creating attributes name,quantity,date with restrictions 1 to 20.<br>and also i am creating a password field,check box field and form action page form submitted</p>
+
+<form action="action_page.php">
+<fieldset>
+<legend>Full Name</legend>
+first name:<br>
+<input type="text" name="firstname">
+<br>
+last name:<br>
+<input type="text" name="lastname">
+<br>
+</fieldset>
+</form>
+<br>
+
+<form>
+<fieldset>
+<legend> Login details</legend>
+user name:<br>
+<input type="text" name="userid">
+<br>
+user password:<br>
+<input type="password" name="psw">
+<br><br>
+<input type="submit" value="Submit">
+<br>
+</fieldset>
+</form>
+<br>
+
+<form>
+<fieldset>
+<legend> select the options you have been to</legend>
+<input type="checkbox" name="country" value="asian"> I went to inida
+<br>
+<input type="checkbox" name="country" value="America"> I went to america
+<br>
+<input type="checkbox" name="country" value="Italy"> I went to italy
+<br>
+<input type="checkbox" name="country" value="mexico"> I went to mexico
+<br>
+<input type="checkbox" name="country" value="canada"> I went to canada
+<br>
+<br>
+</fieldset>
+</form>
+<br>
+<form>
+<fieldset>
+<legend>place and date of travel</legend>
+place of travel:<br>
+<input type="text" name="place of travel" maxlength="20">
+<br>
+date of travel:<br>
+<input type="date" name="travel date">
+<br>
+Quantity of baggage:<br>
+<input type="number" name="quantity" min="1" max="20">
+<br>
+<br>
+<input type="submit">
+</fieldset>
+</body>
+
+</html>
